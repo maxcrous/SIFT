@@ -8,7 +8,7 @@ import functools
 
 import const
 # from numba import njit
-
+i = 0 
 misbehaved = 0
 wellbehaved = 0
 
