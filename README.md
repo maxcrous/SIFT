@@ -32,7 +32,7 @@ The notebooks provide a look into the intermediate steps of SIFT feature creatio
 <img src="images/feature_descriptor_histogram.png" width="800" alt="Feature descriptor histogram">
 </p> 
 
-**Note:** The notebooks been pushed with their state intact. One can view the visualization in Github by opening the notebook.
+**Note:** The notebooks have been pushed with their state intact. One can view the visualization in Github by opening the notebook.
 ## File structure 
 | Name                     | Purpose                                                                              |
 |--------------------------|--------------------------------------------------------------------------------------|
