@@ -14,22 +14,25 @@ for octave_idx, gauss_octave in enumerate(gauss_octaves):
     keypoints = assign_descriptor(keypoints, gauss_octave, octave_idx)
 ```
 
-## Notebooks
-The notebooks provide a look into the intermediate steps of SIFT feature creation. See what each layer of a difference of gaussian (DoG) octave looks like; See how the vector fields of image gradients build a reference orientation; Or visualize the descriptor grid and the final histogram that is the SIFT feature. 
-<div style="text-align:center">
-<img src="images/feature_descriptor.png" width="400" alt="Feature descriptor">
-<img src="images/feature_descriptor_histogram.png" width="800" alt="Feature descriptor histogram">
-</div>
-
 ## How to run
 Install the requirements using `pip install -r requirements.txt`.      
 Execute `python sift.py` to find and match features in `images/{box|box_in_scene}.png`. 
 
 ## Results
-![Current result](images/results.png)
-![Features on video](videos/features_on_scene.gif)
+<p align="center">
+<img src="images/results.png" width="700" alt="Current results">
+<img src="videos/features_on_scene.gif" width="600" alt="Features in video">
+</p>
 
 
+## Notebooks
+The notebooks provide a look into the intermediate steps of SIFT feature creation. See what each layer of a difference of gaussian (DoG) octave looks like; See how the vector fields of image gradients build a reference orientation; Or visualize the descriptor grid and the final histogram that is the SIFT feature. 
+<p align="center">
+<img src="images/feature_descriptor.png" width="400" alt="Feature descriptor">
+<img src="images/feature_descriptor_histogram.png" width="800" alt="Feature descriptor histogram">
+</p> 
+
+**Note:** The notebooks been pushed with their state intact. One can view the visualization in Github by opening the notebook.
 ## File structure 
 | Name                     | Purpose                                                                              |
 |--------------------------|--------------------------------------------------------------------------------------|
